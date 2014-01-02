@@ -1,0 +1,13 @@
+<br>
+<form>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <%= simple_form_for @item do |f| %>
+        <%= f.input :title %>
+        <%= f.input :description %>
+        <%= f.input :quantity %>
+        <%= f.button :submit %>
+      <% end %>
+    </div>
+  </div>
+</form>
