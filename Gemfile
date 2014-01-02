@@ -39,6 +39,7 @@ group :development, :test do
   gem 'shoulda'
   gem 'valid_attribute'
   gem 'capybara'
+  gem 'quiet_assets'
 end
 
 gem 'foundation-rails'
